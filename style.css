@@ -52,11 +52,10 @@ label {
 input,
 select,
 textarea {
-    box-sizing: border-box;
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px, solid #cccccc;
+    border: 1px solid #cccccc;
     border-radius: 5px;
 }
 
@@ -101,4 +100,7 @@ button[type="submit"]:hover{
 button[type="reset"]:hover{
     background-color: orangered;
     color: #cccccc;
+}
+input[type="date"] {
+    max-width: 100%;
 }
