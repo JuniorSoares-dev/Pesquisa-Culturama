@@ -52,6 +52,7 @@ label {
 input,
 select,
 textarea {
+    box-sizing: border-box;
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -89,7 +90,7 @@ button{
     width: 100px;
     height: 30px;
     margin-right: 10px;
-    border: 1px, solid #cccccc;
+    border: 1px solid #cccccc;
     border-radius: 5px;
     cursor: pointer;
 }
