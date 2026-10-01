@@ -105,4 +105,5 @@ input[type="date"] {
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
+  padding: 10px;
 }
