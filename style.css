@@ -103,4 +103,5 @@ button[type="reset"]:hover{
 }
 input[type="date"] {
     max-width: 100%;
+    min-width: 0;
 }
